@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 576px) {
+    flex-direction: column;
+  }
+}
+
+.tabs {
+  @media (max-width: 576px) {
+    order: 2 !important;
+  }
+}

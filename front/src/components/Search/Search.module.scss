@@ -1,0 +1,11 @@
+.input {
+  width: 350px !important;
+  @media (max-width: 768px) {
+    width: 200px !important;
+  }
+  @media (max-width: 576px) {
+    width: 100% !important;
+    padding: 20px 0 !important;
+    order: 1 !important;
+  }
+}

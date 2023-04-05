@@ -1,0 +1,18 @@
+.avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  display: block !important;
+  min-width: 170px !important;
+  margin: 0px auto !important;
+}
+.button {
+  margin-top: 25px !important;
+}
+.button + .button {
+  margin-top: 10px !important;
+}
